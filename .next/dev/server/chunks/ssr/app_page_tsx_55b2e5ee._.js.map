@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/MONISH%20V/Downloads/story/app/page.tsx"],"sourcesContent":["\"use client\"\n\nimport { useEffect } from \"react\"\nimport { useRouter } from \"next/navigation\"\n\nexport default function Home() {\n  const router = useRouter()\n\n  useEffect(() => {\n    const user = localStorage.getItem(\"user\")\n    if (user) {\n      router.push(\"/dashboard\")\n    } else {\n      router.push(\"/login\")\n    }\n  }, [router])\n\n  return (\n    <div className=\"min-h-screen flex items-center justify-center\">\n      <div className=\"text-center\">\n        <div className=\"w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4\" />\n        <p className=\"text-muted-foreground\">Redirecting...</p>\n      </div>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKe,SAAS;IACtB,MAAM,SAAS,IAAA,+IAAS;IAExB,IAAA,kNAAS,EAAC;QACR,MAAM,OAAO,aAAa,OAAO,CAAC;QAClC,IAAI,MAAM;YACR,OAAO,IAAI,CAAC;QACd,OAAO;YACL,OAAO,IAAI,CAAC;QACd;IACF,GAAG;QAAC;KAAO;IAEX,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAI,WAAU;;;;;;8BACf,8OAAC;oBAAE,WAAU;8BAAwB;;;;;;;;;;;;;;;;;AAI7C","debugId":null}}]
+}
