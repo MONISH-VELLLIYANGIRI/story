@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/generate-story/route": "app/api/generate-story/route.js",
+  "/api/signup/route": "app/api/signup/route.js",
+  "/api/login/route": "app/api/login/route.js",
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/dashboard/settings/page": "app/dashboard/settings/page.js",
+  "/dashboard/generate/page": "app/dashboard/generate/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/story/[id]/page": "app/dashboard/story/[id]/page.js",
+  "/dashboard/stories/page": "app/dashboard/stories/page.js"
+}
